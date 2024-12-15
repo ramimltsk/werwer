@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.everything{
+    z-index: 99;
+}
+
+.text h1{
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+}
+
+.text p{
+    font-size: 19px;
+    color: hsl(300, 43%, 22%);
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviews div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    
+}
+
+.review1{
+    margin-left: -80px;
+    width: fit-content;
+}
+
+.review2{
+    margin-left: -50px;
+    width: fit-content;
+}
+.review3{
+    margin-left: 10px;
+    width: fit-content;
+}
+
+
+.rev{
+    padding-left: 20px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btm{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.first{
+    width: 280px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.second{
+    margin-top: 50px;
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.third{
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top:100px ;
+}
+
+.cs{
+    height: 5px;
+    color: white;
+
+}
+
+.vb{
+    color: hsl(333, 80%, 67%);
+}
+
+.btm p{
+    color: white;
+}
+
+.btm img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.backgr{
+    position:absolute;
+    z-index: 1;
+    bottom: 590px;
+    right: 1000px;
+   
+}
+
+.backgrd{
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 800px;
+    
+
+}
+
